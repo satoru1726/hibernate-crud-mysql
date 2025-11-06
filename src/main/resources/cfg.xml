@@ -1,0 +1,18 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/temp</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">2002</property>
+
+        <!-- we need to specify the property to create table / hbm ->hibernate mapping and 2 ->to and ddl -> data definition language[related to sql.] -->
+
+        <property name="hibernate.hbm2ddl.auto">create</property> <!-- update makes a lot of sense than using create-->
+
+        <!-- to see the fired queries -->
+        <property name="hibernate.show_sql">true</property>
+        
+    </session-factory>
+</hibernate-configuration>
+
