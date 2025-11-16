@@ -3,7 +3,7 @@ package in.elmarino;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 
-@Embeddable // meaning we are embedding this object inside another table! [which already exist].
+@Embeddable
 public class StudentName {
 
 
