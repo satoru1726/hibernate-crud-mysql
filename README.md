@@ -12,9 +12,9 @@ a simple CRUD application using Hibernate ORM and MySQL.
 - definitons included [as comments in raw code] where ever needed, for better understanding
 
 ## how to run
-1. clone the repo
-2. update database credentials in `hibernate.cfg.xml`
-3. run the app
+- clone the repo
+- update database credentials in `hibernate.cfg.xml`
+- run the app
 
 ## author
 **_Jayanth A R_**
@@ -27,5 +27,6 @@ linkedIn: www.linkedin.com/in/jayanth-a-r-254232323
 
 ## license
 this project is open-source and available under the MIT License.
+
 
 
