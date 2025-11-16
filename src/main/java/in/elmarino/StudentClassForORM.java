@@ -6,17 +6,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-@Entity // **this belongs to JPA -- indicates that this is a class whose object needs to be stored in DB.
-// let's create a JavaBean now
-
-// to change the table name, use @Entity(name = ""newname) or @Table(name = "newName");
+@Entity
 @Table(name = "studentData")
 public class StudentClassForORM {
 
-    @Id// ** this is also very imp., indicates that this is our PK [Primary Key/unique and not null attribute]
+    @Id
     private int rollNum;
 
-    // to change column name use @Column(name = "newName")
     @Column(name = "studentName")
     private StudentName name;
     @Column(name = "favTech")
