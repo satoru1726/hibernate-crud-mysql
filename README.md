@@ -1,4 +1,4 @@
-# hibernate CRUD with MySQL
+# Hibernate-CRUD-with-MySQL
 a simple CRUD application using Hibernate ORM and MySQL.
 
 ## tech stack
@@ -17,11 +17,15 @@ a simple CRUD application using Hibernate ORM and MySQL.
 3. run the app
 
 ## author
-**_Jayanth A R_**<br>
-aspiring Full Stack Dev.<br>
-mail: <zeninmakisan2025@gmail.com><br>
-linkedIn: <www.linkedin.com/in/jayanth-a-r-254232323>
+**_Jayanth A R_**
+<br>
+aspiring Full Stack Dev.
+<br>
+mail: jayanthcrpar@gmail.com
+<br>
+linkedIn: www.linkedin.com/in/jayanth-a-r-254232323
 
 ## license
 this project is open-source and available under the MIT License.
+
 
